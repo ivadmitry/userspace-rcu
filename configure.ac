@@ -60,7 +60,7 @@ AS_IF([test "x$NPROC" != "x"],
 )
 AC_SUBST([NPROC_CMD], [$NPROC_CMD])
 
-LT_INIT
+LT_INIT([disable-shared])
 
 # Checks for typedefs, structures, and compiler characteristics.
 AC_C_INLINE
